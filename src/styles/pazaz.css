@@ -13,9 +13,13 @@ body {
 #content {
 	padding-bottom:100px;   /* Height of the footer element */
 	text-align: left;
-	background: url(../images/blitz-background.jpg) no-repeat center center fixed;
+	background: url(../images/blitz-background.jpg) no-repeat left top fixed;
 	background-size: cover;
 }
+
+.inner-content {
+	 padding: 10px; 
+	}
 
 #footer {
 	width:100%;
@@ -23,13 +27,17 @@ body {
 	position:absolute;
 	bottom:0;
 	left:0;
-}
-#footer {
-	background:#ffab62;
+	background:#FED084;
 	border-top:1px solid #ff4b02;
 	color:#333;
 	text-shadow:1px 1px 0 rgba(255,255,255,0.6);
 }
+
+#footer p {
+	margin: 10px;
+	font-family: Monospace;
+	font-size: 20px;
+	}
 
 #header {
 	background:#ededed;
